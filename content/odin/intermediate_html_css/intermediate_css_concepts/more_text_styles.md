@@ -1,3 +1,7 @@
+---
+title: 'Diğer metin stilleri'
+---
+
 ### Giriş
 
 Daha önce Temel Bilgiler derslerimizde birkaç metin manipülasyonu yaptınız. Bu ders, metinle çalışırken kullanılabilecek birkaç kullanışlı CSS özelliğini daha kapsayacak.
