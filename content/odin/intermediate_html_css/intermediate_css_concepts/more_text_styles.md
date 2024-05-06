@@ -1,6 +1,6 @@
 ### Giriş
 
-Daha önce Foundations derslerimizde biraz metin manipülasyonu yaptınız. Bu ders, metinle çalışırken kullanılabilecek birkaç daha kullanışlı CSS özelliğini kapsayacak.
+Daha önce Temel Bilgiler derslerimizde birkaç metin manipülasyonu yaptınız. Bu ders, metinle çalışırken kullanılabilecek birkaç kullanışlı CSS özelliğini daha kapsayacak.
 
 ### Öğrenme çıktıları
 
@@ -9,7 +9,7 @@ Daha önce Foundations derslerimizde biraz metin manipülasyonu yaptınız. Bu d
 
 ### Yazı Tipleri
 
-Foundations dersimizde bir öğenin `font-family`'sini değiştirmeyi ele almıştık, ancak o zaman bazı incelik ve detayları atlamıştık.
+Temel Bilgiler dersimizde bir öğenin `font-family`'sini değiştirmeyi ele almıştık, ancak o zaman bazı incelik ve detayları atlamıştık.
 
 #### Sistem font yığını
 
@@ -29,8 +29,7 @@ Bu oldukça absürt font-family dizisinin amacı, sistem kullanıcı arayüzün�
 
 Kullanıcının bilgisayarında _yüklü olmayan_ fontlara ulaşmanın popüler ve kolay bir yolu, [Google Fonts](https://fonts.google.com/), [Font Library](https://fontlibrary.org/) veya premium ancak ücretli [Adobe Fonts](https://fonts.adobe.com/) gibi çevrimiçi font kütüphanelerini kullanmaktır.
 
-
-Bu kütüphanelerden birinden bir font kullanmak için, ilgili web sitesine gidin, bir font seçin ve ardından web sitelerinden bir parça kodu kopyalayarak, o fontu kendi web sitenize sunucularından içe aktarabilirsiniz. Genellikle, HTML'nizde şu şekilde kullanmak için bir `<link>` etiketi alırsınız...
+Bu kütüphanelerden birinden bir font kullanmak için, web sitesine gidin, bir font seçin ve ardından bu font'u web sitenin sunucularından kendi web sitenize aktarmak için web sitesinden bir parçacık(snippet) kopyalayın.  HTML'nize koymanız için size bir `<link>` etiketi verilecektir, örneğin....
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,13 +72,13 @@ Bu yöntem, üçüncü taraf bir font API'ına güvenmekten daha güvenilir olab
 
 ### Metin stilleri
 
-Foundations derslerimizde fontları manipüle etmenin temellerini öğrendiniz, ancak CSS ile metin stillerini manipüle etmek konusunda daha fazla şey yapabilirsiniz. Bu kurallar genellikle basit ve açıklayıcıdır. Herhangi bir sorunuz varsa belgelere başvurabilirsiniz.
+Temel Bilgiler derslerimizde fontları manipüle etmenin temellerini öğrendiniz, ancak CSS ile metin stillerini manipüle etmek konusunda daha fazla şey yapabilirsiniz. Bu kurallar genellikle basit ve açıklayıcıdır. Herhangi bir sorunuz varsa dökümanlara bakabilirsiniz.
 
 #### font-style
 
 Genellikle bir fontu eğik (italik) yapmak için kullanılır. HTML `<em>` etiketini öğrendiniz, bu etiket italik bir font kullanır, ancak `<em>` aynı zamanda sardığı metnin önemli olduğunu veya bir şekilde vurgulanması gerektiğini belirtir. Genel bir kural olarak, eğer bir metni sadece italik (veya kalın, altı çizili, vurgulu, vb.) yapmak istiyorsanız, bir CSS özelliği kullanın. Aksi takdirde, metnin semantik vurguya ihtiyacı varsa, doğru HTML öğesini kullanın.
 
-Örneğin, tüm başlık metninizi italik yapmak istiyorsanız, bunu gerçekleştirmek için `font-style`'ı kullanmalısınız. Eğer bir cümle içindeki metnin _orta kısmının_ italik görünmesini istiyorsanız ve bu metni vurgulamak istiyorsanız, bir `em` öğesini kullanmak uygun olacaktır. [MDN doc on the Emphasis Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) belgesi yukarıdaki noktayı vurgular.
+Örneğin, tüm başlık metninizi italik yapmak istiyorsanız, bunu gerçekleştirmek için `font-style`'ı kullanmalısınız. Eğer bir cümle içindeki metnin _orta kısmının_ italik görünmesini istiyorsanız ve bu metni vurgulamak istiyorsanız, bir `em` öğesini kullanmak uygun olacaktır. [Emphasis Element üzerine MDN dökümanı](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) yukarıdaki noktayı vurgular.
 
 Eğer stil amaçları için italik kullanılması gerekiyorsa, `font-style: italic;` kullanmalıyız.
 
@@ -97,8 +96,8 @@ Vurgu amacıyla italik kullanılması gerekiyorsa, `em` öğesini kullanmalıyı
 <p>I never said he stole <em>your</em> money</p>
 ```
 
-#### letter-spacing
-Harf aralığı, beklendiği gibi davranır... bir kelimenin harfleri arasındaki boşluğu değiştirir. Bu, fazla veya az boşluğa sahip olduğunu düşündüğünüz özel fontları ayarlamak için kullanışlı olabilir. Aynı zamanda bazı durumlarda, özellikle başlıklarda, estetik olarak hoş görünebilir.
+#### letter-spacing(harf aralığı)
+letter-spacing, beklendiği gibi davranır... bir kelimenin harfleri arasındaki boşluğu değiştirir. Bu, fazla veya az boşluğa sahip olduğunu düşündüğünüz özel fontları ayarlamak için kullanışlı olabilir. Aynı zamanda bazı durumlarda, özellikle başlıklarda, estetik olarak hoş görünebilir.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWomjGr" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
 <span>
@@ -112,8 +111,8 @@ Harf aralığı, beklendiği gibi davranır... bir kelimenin harfleri arasındak
 
 Tabii ki, bunu dikkatlice ve ölçülü bir şekilde kullanın. Sitenizi okunması zor hale getirmeyin!
 
-#### line-height
-Satır yüksekliği, sarılı metindeki satırlar arasındaki boşluğu ayarlar. Biraz satır yüksekliği eklemek, okunabilirliği artırabilir.
+#### line-height(satır yüksekliği)
+line-height, sarılı metindeki satırlar arasındaki boşluğu ayarlar. Biraz satır yüksekliği eklemek, okunabilirliği artırabilir.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="vYZmXzY" data-editable="true" data-user="TheOdinProjectExamples" style={{"height":"300px","boxSizing":"border-box","display":"flex","alignItems":"center","justifyContent":"center","border":"2px solid","margin":"1em 0","padding":"1em"}}>
 <span>
@@ -128,15 +127,15 @@ Satır yüksekliği, sarılı metindeki satırlar arasındaki boşluğu ayarlar.
 #### text-transform
 Text transform basitçe verilen metnin büyük-küçük harf durumunu değiştirir. Bu örneğin başlık etiketlerinizi tamamen büyük harfe zorlamak veya her kelimenin ilk harfini büyük yapmak için kullanılabilir.
 
-Kullanımı basittir ve açık bir örnek için bu [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform) görülebilir.
+Kullanımı basittir ve açık bir örnek için bu [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)'dan bakabilirsiniz.
 
 #### text-shadow
 Bekleyebileceğiniz gibi, `text-shadow` seçilen öğedeki metnin etrafına bir gölge ekler. Bu özellik genellikle özenle kullanılır, ancak başlıklar veya diğer sunum metinlerinde büyük etki yaratmak için kullanılabilir.
 
-Bu özelliği nasıl kullanacağınızı gösteren örnekler [MDN reference page for text-shadow]https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) bulunmaktadır.
+Bu özelliği nasıl kullanacağınızı gösteren örnekler [MDN'in text-shadow için referans sayfasında]https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) bulunmaktadır.
 
 #### ellipsis
-Bu, tek bir özellik değil, ancak takım çantanızda bulundurmanız gereken kullanışlı bir hile. text-overflow özelliği ile taşan metni üç nokta ile kırpabilirsiniz. Ancak bir taşmanın gerçekleşmesi için, metnin varsayılan davranışının basitçe konteynerının dışına basılması, teknik olarak bir overflow (taşma) olarak kabul edilmez (bu karmaşık, biliyoruz, özür dileriz).
+Bu, tek bir özellik değil, ancak takım çantanızda bulundurmanız gereken kullanışlı bir hile. `text-overflow` özelliği ile taşan metni üç nokta ile kırpabilirsiniz. Ancak bir taşmanın gerçekleşmesi için, metnin varsayılan davranışının basitçe konteynerının dışına basılması, teknik olarak bir `overflow(taşma)` olarak kabul edilmez (bu karmaşık, biliyoruz, özür dileriz).
 
 Tam kod parçası:
 
@@ -148,7 +147,7 @@ Tam kod parçası:
 }
 ```
 
-Bu örnekte daha fazla detay görebilirsiniz [this CSS Tricks Article](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/). (Bu özelliği kullanmak istediğinizde her seferinde o makaleyi aramak için hazır olun.)
+Daha fazla ayrıntı ve bir örneği [bu CSS Tricks makalesinde](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/) görebilirsiniz. (Bu özelliği kullanmak istediğinizde her seferinde o makaleyi aramak için hazır olun.)
 
 ### Bilgi ölçme
 
