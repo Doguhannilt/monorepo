@@ -56,7 +56,7 @@ Unutmayın ki bir yedek font eklemek önemlidir. Eğer harici bir API'ye bağlan
 
 #### İndirilmiş olan yazı tipleri
 
-"Ayrıca, web üzerinden indirdiğiniz bir fontu kullanmak da mümkündür. CSS dosyanızda, özel bir fontu `@font-face` kuralını kullanarak içe aktarıp tanımlarsınız ve ardından onu diğer font-family'ler gibi kullanabilirsiniz. Birden fazla font dosya formatı türü bulunmaktadır ve bunlar hakkında daha fazla bilgiye [fileinfo.com's page on Font File Formats](https://fileinfo.com/filetypes/font) sayfasında detaylı olarak ulaşabilirsiniz. Ancak lütfen bir font dosya formatı seçerken dikkatli olun, çünkü bazıları tarayıcılar tarafından evrensel olarak desteklenmemektedir. Tarayıcılar ve destekledikleri font formatları hakkında bilgi için [W3 Schools' page on CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp) sayfasını inceleyebilirsiniz."
+Web üzerinden indirdiğiniz bir fontu kullanmak da mümkündür. CSS dosyanızda, özel bir fontu `@font-face` kuralını kullanarak içe aktarıp ve tanımlarsınız ve ardından onu diğer font-family'ler gibi kullanabilirsiniz. Birden fazla font dosya formatı türü bulunmaktadır ve bunlar hakkında daha fazla bilgiye [fileinfo.com'un Font Dosya Biçimleri](https://fileinfo.com/filetypes/font) sayfasında detaylı olarak ulaşabilirsiniz. Ancak lütfen bir font dosya formatı seçerken dikkatli olun, çünkü bazıları tarayıcılar tarafından evrensel olarak desteklenmemektedir. Tarayıcılar ve destekledikleri font formatları hakkında bilgi için [W3 Schools'un CSS Web Yazı Tipleri](https://www.w3schools.com/css/css3_fonts.asp) sayfasını inceleyebilirsiniz."
 
 ```css
 @font-face {
