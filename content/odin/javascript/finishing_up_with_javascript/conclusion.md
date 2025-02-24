@@ -1,13 +1,13 @@
-### The end of the JavaScript course!
+### JavaScript Kursunun Sonu!
 
-Completing the JavaScript course is a major milestone! Congratulations! You've learned a lot of major JavaScript concepts like prototypes, closures, promises, and event loops. Take a moment to reflect on how far you've come.
+JavaScript kursunu tamamlamak büyük bir kilometre taşıdır! Tebrikler! Prototipler, closure'lar, promises ve event loop gibi önemli JavaScript kavramlarını öğrendiniz. Ne kadar yol katettiğinizi bir an için düşünün.
 
-At this point, you can create phenomenal and dynamic frontends, all using vanilla JavaScript. However, the frontend isn't over yet. You'll be learning about accessibility, responsive design and about [React](https://react.dev/), a library for creating interfaces, in the upcoming courses. You've already experienced the pain of manually updating the DOM with respect to your underlying data changes, and that's where React simplifies the process.
+Bu noktada, sadece vanilla JavaScript kullanarak harika ve dinamik frontendler oluşturabilirsiniz. Ancak frontend bitmedi! Gelecek kurslarda erişilebilirlik, responsive design ve [React](https://react.dev/) gibi arayüz oluşturma kütüphanelerini öğreneceksiniz. Zaten verilerinize göre DOM'u manuel olarak güncellemenin zorluğunu deneyimlediniz ve işte React burada süreci basitleştiriyor.
 
-#### Give your feedback
+#### Geri bildirimlerinizi paylaşın
 
-Before you move on to the next section, please fill out this [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link). Your feedback is important to improve the curriculum and understand users' experience.
+Bir sonraki bölüme geçmeden önce, lütfen bu [geri bildirim formunu](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link) doldurun. Geri bildiriminiz, müfredatın geliştirilmesi ve kullanıcı deneyiminin anlaşılması açısından çok önemlidir.
 
-#### Parting thoughts
+#### Ayrılık Düşünceleri
 
-At the end we'd like to reiterate that learning doesn't stop here. Embrace a growth mindset and explore! Good luck!
+Son olarak, öğrenmenin burada bitmediğini yinelemek isteriz. Bir gelişim zihniyeti benimseyin ve keşfedin! İyi şanslar!
